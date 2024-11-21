@@ -1,20 +1,20 @@
 --- @type highlite.color.palette.get
 local function get(bg, get_terminal)
 	local palette, terminal_palette
-	fg     = 0xCCCCCC
-	hi     = 0xD3D3D3
-	bg0    = 0x2D2D2D
-	bg1    = 0x393939
-	bg2    = 0x515151
-	gray   = 0x999999
-	red    = 0xEB7375
-	red_hi = 0xF72f31
-	orange = 0xF99157
-	yellow = 0xFFCC66
-	green  = 0x99CC99
-	aqua   = 0x66CCCC
-	blue   = 0x6699CC
-	purple = 0xCC99CC
+	local fg     = 0xCCCCCC
+	local hi     = 0xD3D3D3
+	local bg0    = 0x2D2D2D
+	local bg1    = 0x393939
+	local bg2    = 0x515151
+	local gray   = 0x999999
+	local red    = 0xEB7375
+	local red_hi = 0xF72f31
+	local orange = 0xF99157
+	local yellow = 0xFFCC66
+	local green  = 0x99CC99
+	local aqua   = 0x66CCCC
+	local blue   = 0x6699CC
+	local purple = 0xCC99CC
 
 	if bg ~= 'light' then
 		if get_terminal then
